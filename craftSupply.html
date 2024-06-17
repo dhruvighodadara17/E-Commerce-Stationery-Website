@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Craft Supply</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar-content.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .wishlist-item i {
+            color: #088178;
+        }
+
+        .wishlist-item.active i {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-border">
+                <button class="logo" title="Brahamani" id="logo">
+                    <img src="brahmani.png" alt="brahmani" height="75px" width="136px">
+                </button>
+            </div>
+            <div class="search">
+                <div class="input-group mb-3" id="search_bar" title="search">
+                    <input type="text" class="form-control" placeholder="Search Products" aria-label="Product name"
+                        aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">
+                            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="header-access">
+                <div class="nav-whishlist" title="Wishlist">
+                    <button id="wishButton"><i class="fa-regular fa-heart" style="color: #060c50;"></i></button>
+                </div>
+                <div class=" nav-cart" title="Cart">
+                    <button id="cartButton"><i class="fa-solid fa-cart-shopping" style="color: #060c50;"></i></button>
+                </div>
+                <div class="nav-account" title="Account">
+                    <button id="accountButton"><i class="fa-regular fa-user" id="account"
+                            style="color: #060c50;"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header id="header2">
+        <div class="dropdown5">
+            <button class="dropbtn" id="Home">Home
+            </button>
+
+        </div>
+        <div class="dropdown1">
+            <button class="dropbtn" id="stationery-supply">Stationery
+            </button>
+
+        </div>
+
+        <div class="dropdown2">
+            <button class="dropbtn" id="office">Office Supplies
+            </button>
+
+        </div>
+
+        <div class="dropdown3">
+            <button class="dropbtn" id="art">Art Supplies
+            </button>
+
+        </div>
+
+        <div class="dropdown4">
+            <button class="dropbtn" id="craft" style="text-decoration: overline;">Craft Materials
+            </button>
+
+        </div>
+    </header>
+    <!-- ---------------------first section-------------------------- -->
+
+
+    <section class="main-product-section">
+        <section id="product1">
+            <a href="#" class="a">Craft Materials</a>
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="c1.html"><img class="image" src="image/craft1.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Lakeer</span>
+                        <p>Lakeer A3 Color Paper Pack - 50 Sheets, 10 Vibrant Colors | 120 GSM | Ideal for Art, Craft,
+                            Printing</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹450</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c2.html"><img class="image" src="image/craft2.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Pidilite</span>
+                        <p>Pidilite Fevistik Super Glue Stick Non-Toxic Transparent Adhesive</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹50</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c3.html"><img class="image" src="image/craft3.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Magic</span>
+                        <p>FAVELA Magic Puffy Pens for Kids, Bubble Pen, Magic Popcorn Color Paint Pen</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹300</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c4.html"> <img class="image" src="image/craft4.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Pidilite</span>
+                        <p>Pidilite Fevicol MR Easy Flow Squeeze Bottle - 105g, Ultimate Adhesive for Students Project
+                            Work & Serious Crafters</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹80</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+    <!----------------------------------------------- Second Section ---------------------------------------->
+
+    <section class="main-product-section">
+        <section id="product1">
+            <!-- <a href="#" class="a">Ball Pens</a> -->
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="c5.html"><img class="image" src="image/craft5.jpg"></a>
+                    <div class="des">
+                        <span>Brand: CocoMoco</span>
+                        <p>CocoMoco Kids Premium Dot Stickers for Kids Activity Book -2000+ Round Stickers - Fun Craft
+                            Supplies</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹250</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c6.html"> <img class="image" src="image/craft6.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Solima</span>
+                        <p>Solimo Sticky Notes Pad, Pocket-Size, Wirobound</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹120</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c7.html"><img class="image" src="image/craft7.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Reward Stickers</span>
+                        <p>1800+ Reward Stickers - Ideal For Teachers And Parents : Sticker Book With Over 1800 Stickers
+                            To Boost The Morale of Kids</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹200</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c8.html"> <img class="image" src="image/craft8.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Stickers</span>
+                        <p>craft Sparkle smiley heart star stickers (6 sheets),Kids and Teachers craft stickers,Kids
+                            Birthday Gift</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹200</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+    <!----------------------------------------------- Third Section ---------------------------------------->
+
+    <section class="main-product-section">
+        <section id="product1">
+            <!-- <a href="#" class="a">Calculatos</a> -->
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="c9.html"> <img class="image" src="image/craft9.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Maple Kids</span>
+                        <p>My First Sticker Book - Shapes and Colours - Activity Book for Kids with 100+ stickers </p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹120</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c10.html"><img class="image" src="image/craft10.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Hasthip</span>
+                        <p>HASTHIP Paper Cartoon Stickers Roll Rewards Labels Stickers Round Self Adhesive Envelopes Tag
+                            Seals Decals</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹200</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c11.html"><img class="image" src="image/craft11.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Stickers</span>
+                        <p>FunBlast Kawaii Stickers Set – 3 Sheets, 50 Pcs Puffy Stickers for Kids</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹350</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c12.html"> <img class="image" src="image/craft12.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Jigsaw Puzzles</span>
+                        <p>The Puzzl Co - Set of 2 Fun Jigsaw Puzzles & Theme Activity Sheet,</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹400</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+    <!---------------------------------------------- Forth Section -------------------------------------------------------------->
+
+
+    <section class="main-product-section">
+        <section id="product1">
+            <!-- <a href="#" class="a">Printing Papers</a> -->
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="c13.html"><img class=image src="image/craft13.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Origami</span>
+                        <p>1030 Sheets Origami Star Paper Strips 27 Assortment Color Star Papers</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹300</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c14.html"> <img class="image" src="image/craft14.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Eclet Clay</span>
+                        <p>Eclet Air Dry Clay, Colorful Children Soft Clay, Creative Art Crafts, Gifts for Kids-Multi
+                            Color.</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹100</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c15.html"> <img class="image" src="image/craft15.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Book</span>
+                        <p>Pick and Paint Coloring Activity Book For Kids: Vehicles [Paperback] Wonder House Books
+                            Paperback </p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹100</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="c16.html"><img class="image" src="image/craft16.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Puzzle Kit</span>
+                        <p>Webby DIY Wooden 3D Pirate Ship Puzzle Kit, Show Piece, Home & Office Table Decoration</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹800</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const wishlistButtons = document.querySelectorAll('.wishlist-item');
+            wishlistButtons.forEach(button => {
+                const item = button.closest('.pro');
+                const itemId = item.dataset.id;
+                const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+                const isItemInWishlist = wishlist.some(i => i.id === itemId);
+
+                if (isItemInWishlist) {
+                    button.classList.add('active');
+                }
+
+                button.addEventListener('click', event => {
+                    toggleWishlistItem(item);
+                });
+            });
+
+            function toggleWishlistItem(item) {
+                const itemId = item.dataset.id;
+                const wishlistButton = item.querySelector('.wishlist-item');
+                let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+                const itemIndex = wishlist.findIndex(i => i.id === itemId);
+
+                if (itemIndex === -1) {
+                    wishlist.push({
+                        id: itemId,
+                        content: item.innerHTML
+                    });
+                    wishlistButton.classList.add('active');
+                    alert('Item added to wishlist');
+                } else {
+                    wishlist.splice(itemIndex, 1);
+                    wishlistButton.classList.remove('active');
+                    alert('Item removed from wishlist');
+                }
+
+                localStorage.setItem('wishlist', JSON.stringify(wishlist));
+            }
+        });
+
+    </script>
+    <script src="script.js"></script>
+</body>
+
+</html>

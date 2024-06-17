@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Supply Section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="navbar-content.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        .wishlist-item i {
+            color: #088178;
+        }
+
+        .wishlist-item.active i {
+            color: red;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <div class="nav-border">
+                <button class="logo" title="Brahamani" id="logo">
+                    <img src="brahmani.png" alt="brahmani" height="75px" width="136px">
+                </button>
+            </div>
+            <div class="search">
+                <div class="input-group mb-3" id="search_bar" title="search">
+                    <input type="text" class="form-control" placeholder="Search Products" aria-label="Product name"
+                        aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <span class="input-group-text" id="basic-addon2">
+                            <i class="fa-solid fa-magnifying-glass" id="search_icon"></i>
+                        </span>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="header-access">
+                <div class="nav-whishlist" title="Wishlist">
+                    <button id="wishButton" onclick="window.location.href='wishlist.html'">
+                        <i class="fa-regular fa-heart" style="color: #060c50;"></i></button>
+                </div>
+                <div class=" nav-cart" title="Cart">
+                    <button id="cartButton"><i class="fa-solid fa-cart-shopping" style="color: #060c50;"></i></button>
+                </div>
+                <div class="nav-account" title="Account">
+                    <button id="accountButton"><i class="fa-regular fa-user" id="account"
+                            style="color: #060c50;"></i></button>
+                </div>
+            </div>
+        </div>
+    </header>
+    <header id="header2">
+        <div class="dropdown5">
+            <button class="dropbtn" id="Home">Home
+            </button>
+
+        </div>
+        <div class="dropdown1">
+            <button class="dropbtn" id="stationery-supply">Stationery
+            </button>
+
+        </div>
+
+        <div class="dropdown2">
+            <button class="dropbtn" id="office">Office Supplies
+            </button>
+
+        </div>
+
+        <div class="dropdown3">
+            <button class="dropbtn" id="art" style="text-decoration: overline;">Art Supplies
+            </button>
+
+        </div>
+
+        <div class="dropdown4">
+            <button class="dropbtn" id="craft">Craft Materials
+            </button>
+
+        </div>
+    </header>
+    <!-- ---------------------first section----------------------------- -->
+    <section class="main-product-section">
+        <section id="product1">
+            <a href="#" class="a">Water Colours</a>
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="a1.html"> <img class="image" src="image/color1.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Fevicryl Acrylic</span>
+                        <p>Fevicryl Acrylic Colours Sunflower Kit | 10 Colours x 15 ml | DIY Paint, Rich Pigment |
+                            Multicolour & Multi-surface</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹357</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a2.html"><img class="image" src="image/color2.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Camel</span>
+                        <p>Camel Kokuyo Student Water Color Cakes - 12 Shades, Multicolour</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹40</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a3.html"><img class="image" src="image/color3.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Doms Poster</span>
+                        <p>Doms 12 Shades Poster Colours | Rich & Vibrant Colors | Free Agigator & Brush Inside For
+                            Uniform Mixing</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹200</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a4.html"><img class="image" src="image/color4.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Worison Acrylic</span>
+                        <p>Worison Acrylic Color Set of 12 Colors X 12ML Tubes, Multicolour</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹350</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+    <!----------------------------------------------- Second Section ---------------------------------------->
+
+    <section class="main-product-section">
+        <section id="product1">
+            <a href="#" class="a">Brushes</a>
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="a5.html"><img class="image" src="image/brush1.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Artist Brushes</span>
+                        <p>Eclet Craft Painting Brushes Set of 12 Professional Round Pointed Tip Nylon Hair Artist
+                            Acrylic Paint Brush</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹200</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a6.html"><img class="image" src="image/brush2.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Kabeer Art</span>
+                        <p>Kabeer Art Synthetic Hair Mix Brush Set for Acrylic Painting, Watercolor Painting, Modern Art
+                            Painting</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹260</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a7.html"><img class="image" src="image/brush3.jpg"></a>
+                    <div class="des">
+                        <span>Brand: kabeer Art</span>
+                        <p>Kabeer Art Artist Quality Round and Flat Mix Painting Brush Set of 6 Pieces for Watercolor
+                            and Acrylic Painting(Wood)</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹200</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a8.html"><img class="image" src="image/brush4.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Art Asia</span>
+                        <p>Art Asia Set of 4 Filbert Brushes in Synthetic Bristle for Water, Poster Color and Acrylic
+                            Painting</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹190</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+    <!----------------------------------------------- Third Section ---------------------------------------->
+
+    <section class="main-product-section">
+        <section id="product1">
+            <a href="#" class="a">Sketch Pens</a>
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="a9.html"><img class="image" src="image/sketch1.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Camel</span>
+                        <p>Camel Sketch Pens 24 Shades</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹75</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a10.html"> <img class="image" src="image/sketch2.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Calist</span>
+                        <p>CALIST Dual Tip Colorful Art Markers Sketch Pens 48 Colours With Carrying Case For Painting
+                            Sketching Calligraphy Drawing</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹498</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a11.html"> <img class="image" src="image/sketch3.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Dura</span>
+                        <p>FLAIR Creative Series Dura Bold Water Color Pen | Smudge Free Writing With Durable Built &
+                            Bullet Tip</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹500</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a12.html"><img class="image" src="image/sketch4.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Faber-Castell</span>
+                        <p>Faber-Castell Connector Pen Set - Pack of 15</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹75</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+
+    <!---------------------------------------------- Forth Section -------------------------------------------------------------->
+
+
+    <section class="main-product-section">
+        <section id="product1">
+            <a href="#" class="a">Pencil Colours</a>
+            <div class="pro-container">
+                <div class="pro">
+                    <a href="a13.html"><img class=image src="image/pcolor1.jpg"></a>
+                    <div class="des">
+                        <span>Brand: BRUSTRO</span>
+                        <p>BRUSTRO Artists' Coloured Pencil Set of 24 </p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹860</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a14.html"> <img class="image" src="image/pcolor2.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Doms</span>
+                        <p>Doms 24 Shades Color Pencils|Hexagonal Shaped Body For Comfortable Grip|Bright&Playful Colors
+                        </p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹120</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a15.html"><img class="image" src="image/pcolor3.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Faber-Castell</span>
+                        <p>Faber-Castell 36 Triangular Colour Pencils</p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹2200</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+                <div class="pro">
+                    <a href="a16.html"> <img class="image" src="image/pcolor4.jpg"></a>
+                    <div class="des">
+                        <span>Brand: Colour Up</span>
+                        <p>Cello Colourup Colour Pencil Set|Pack Of 24 Colour Pencils|Bright And Strong Colours Pencils
+                        </p>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>₹200</h4>
+                    </div>
+                    <div class="cart-wishlist">
+                        <a href="#"><button class="wishlist-item"><i class="fa-solid fa-heart"></i></button></a>
+                        <a href="#"><button class="search-item"><i class="fa-solid fa-cart-shopping"></i></button></a>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </section>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const wishlistButtons = document.querySelectorAll('.wishlist-item');
+            wishlistButtons.forEach(button => {
+                const item = button.closest('.pro');
+                const itemId = item.dataset.id;
+                const wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+                const isItemInWishlist = wishlist.some(i => i.id === itemId);
+
+                if (isItemInWishlist) {
+                    button.classList.add('active');
+                }
+
+                button.addEventListener('click', event => {
+                    toggleWishlistItem(item);
+                });
+            });
+
+            function toggleWishlistItem(item) {
+                const itemId = item.dataset.id;
+                const wishlistButton = item.querySelector('.wishlist-item');
+                let wishlist = JSON.parse(localStorage.getItem('wishlist')) || [];
+                const itemIndex = wishlist.findIndex(i => i.id === itemId);
+
+                if (itemIndex === -1) {
+                    wishlist.push({
+                        id: itemId,
+                        content: item.innerHTML
+                    });
+                    wishlistButton.classList.add('active');
+                    alert('Item added to wishlist');
+                } else {
+                    wishlist.splice(itemIndex, 1);
+                    wishlistButton.classList.remove('active');
+                    alert('Item removed from wishlist');
+                }
+
+                localStorage.setItem('wishlist', JSON.stringify(wishlist));
+            }
+        });
+    </script>
+</body>
+<script src="script.js"></script>
+</body>
+
+</html>
